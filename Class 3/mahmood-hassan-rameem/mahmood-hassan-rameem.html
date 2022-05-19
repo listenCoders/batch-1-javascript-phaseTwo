@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+
+    <style>
+        #card{
+            width: 350px;
+            padding: 20px;
+            background-color: gray;
+            border-radius: 10px;
+        }
+
+
+        #card img{
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        #card h1, #card h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="h1"></div>
+    <div id="h2"></div>
+    <div id="h3"></div>
+    <div id="h4"></div>
+    <div id="h5"></div>
+    <div id="h6"></div>
+
+    <div id="p"></div>
+
+
+    <div id="card">
+        
+    </div>
+
+
+
+    <script>
+        const h1 = document.getElementById("h1");
+        const h2 = document.getElementById("h2");
+        const h3 = document.getElementById("h3");
+        const h4 = document.getElementById("h4");
+        const h5 = document.getElementById("h5");
+        const h6 = document.getElementById("h6");
+        const p = document.getElementById("p");
+
+
+
+        h1.innerHTML = '<h1>Listen Coders</h1>';
+        h2.innerHTML = '<h2>Listen Coders</h2>';
+        h3.innerHTML = '<h3>Listen Coders</h3>';
+        h4.innerHTML = '<h4>Listen Coders</h4>';
+        h5.innerHTML = '<h5>Listen Coders</h5>';
+        h6.innerHTML = '<h6>Listen Coders</h6>';
+
+
+        p.innerHTML = "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maxime illo odit quos vitae tenetur nihil. Debitis quod ab, maiores praesentium distinctio, rem ullam ea veritatis nobis labore ipsa laborum, quam officia recusandae voluptates? Accusamus praesentium, consequatur alias maiores id officiis recusandae animi perspiciatis corporis expedita unde repudiandae provident ipsa odio, adipisci dolor eum reiciendis nam deleniti nihil ab aliquid! Ducimus commodi rem dolorem facere cupiditate magnam unde veniam aut cum quo corrupti placeat sed, iusto natus aliquam nihil hic! Eum rerum fuga eligendi voluptate, rem laudantium atque quo distinctio. Facilis unde aspernatur ut quam esse soluta quibusdam quia dolores!</p>";
+
+
+
+        // Design card in javascript
+        document.getElementById("card").innerHTML = `
+        
+            <img src="https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/120149086_371597627347184_8819678821991159398_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=09cbfe&_nc_eui2=AeFnPyUZZeYNGzXZMkQ2Gg7uyfE16BSA6DLJ8TXoFIDoMhbFFViLquxb_VwoiggZ3Cgy9e-jwVj9qhvrpLY08z_U&_nc_ohc=4W2uSBh0T5EAX8CEUyD&_nc_ht=scontent.fdac7-1.fna&oh=00_AT8R0E-DVMiUH3nN8A4ev4fMOrLKqr4A58fUqe8_vNkU7g&oe=62A94444" alt="rameem">
+
+
+            <h1>Mahmood Hassn Rameem</h1>
+
+
+            <h2>Lsten coder's || Batch - 1</h2>
+        
+        `;
+    </script>
+</body>
+</html>
